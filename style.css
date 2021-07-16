@@ -6,9 +6,6 @@
 	font-family: 'Minion'; src: local("Minion Pro"), url("minion-reg.otf") format("opentype")
 }
 
-html {
-}
-
 body {
 	font-family: "Forum", Georgia, system-ui, "Segoe UI", Roboto, Ubuntu, serif;
 	margin: 0;
@@ -148,13 +145,7 @@ h2 {
 
 img {
 	border-radius: 5px; 
-	filter: grayscale(100%); 
-	transition: filter 0.6s ease;
 }
-
-	img:hover {
-		filter: grayscale(0%);
-	}
 
 p {
 	font-family: "Minion", Georgia, system-ui, "Segoe UI", Roboto, Ubuntu, serif;
